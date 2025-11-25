@@ -1,0 +1,16 @@
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.kep {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  transform: rotate(2deg);
+  float: left;
+}
+.kep img{
+    width: 100%;
+}
