@@ -1,0 +1,25 @@
+table{
+    width: 100%;
+}
+th{
+    font-weight: bold;
+    border-collapse: collapse;
+}
+th,td{
+    border: 0 none red;
+    border-bottom: 1px solid aqua ;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+aside{
+    display: grid;
+    align-items: center;
+}
+aside h2{
+    padding: 10pt;
+}
+.versszak{
+    margin: 10pt;
+}

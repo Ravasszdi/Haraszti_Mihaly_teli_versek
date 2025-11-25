@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0;
+    background-color: aquamarine;
+    background-image: url("/kepek/hatter.jpg");
+}
+
+main{
+    width: 90%;
+    margin: auto auto;
+    align-self: center;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-areas:    "he he he"
+                            "na ar as"
+                            "fo fo fo";
+    box-shadow: 0 0 10pt;
+}
+
+header{
+    grid-area: he;
+    background-image: url(/kepek/fejlec.jpg);
+    height: 175px;
+    display: grid;
+}
+header h1{
+    padding: 10pt;
+    margin: auto auto;
+    text-align: center;
+    align-self: baseline;
+}
+
+nav{
+    grid-area: na;
+    display: grid;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    border-radius: 5pt;
+    background-color: aquamarine;
+    padding: 10pt;
+    margin: 5pt;
+}
+nav a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+aside{
+    grid-area: as;
+}
+
+article{
+    grid-area: ar;
+}
+
+footer{
+    grid-area: fo;
+    background-color: aquamarine;
+    text-align: center;
+}
